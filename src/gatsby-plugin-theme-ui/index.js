@@ -33,10 +33,11 @@ export default {
         gray: 'hsl(210, 50%, 60%)',
       },
     },
-  },
+  }, 
   fonts: {
     body:
       '-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+    logoFont: 'Asap, sans-serif',
     heading: 'Roboto, sans-serif',
     monospace: 'Menlo, monospace',
   },
@@ -108,6 +109,7 @@ export default {
         bg: 'primary',
       },
     },
+    // Logo in Header       **************
     nav: {
       display: 'block',
       width: '100%',
@@ -340,7 +342,7 @@ export default {
     navlink: {
       display: 'inline-block',
       fontWeight: 'bold',
-      font: 'Asap',
+      font: 'body',
       color: 'inherit',
       textDecoration: 'none',
       ':hover,:focus': {
