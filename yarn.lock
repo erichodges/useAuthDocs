@@ -13153,6 +13153,11 @@ typeface-asap@^1.1.13:
   resolved "https://registry.yarnpkg.com/typeface-asap/-/typeface-asap-1.1.13.tgz#58ead3c49e8607a9f91efc05cf9d1d69582bcdc6"
   integrity sha512-lBZQPdl/a9c3Mh1HV6dKyy2voKFEyJQkxDTHrsP3Sf2wBknjgIB66095ofooZ6IaYlCZIHLT02zzPf4FprIIog==
 
+typeface-roboto@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-roboto/-/typeface-roboto-1.1.13.tgz#9c4517cb91e311706c74823e857b4bac9a764ae5"
+  integrity sha512-YXvbd3a1QTREoD+FJoEkl0VQNJoEjewR2H11IjVv4bp6ahuIcw0yyw/3udC4vJkHw3T3cUh85FTg8eWef3pSaw==
+
 ua-parser-js@^0.7.18:
   version "0.7.21"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"

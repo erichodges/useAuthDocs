@@ -38,7 +38,8 @@
     "remark-slug": "^6.0.0",
     "stringify-object": "^3.3.0",
     "theme-ui": "^0.4.0-rc.1",
-    "typeface-asap": "^1.1.13"
+    "typeface-asap": "^1.1.13",
+    "typeface-roboto": "^1.1.13"
   },
   "devDependencies": {
     "@babel/register": "^7.8.6",

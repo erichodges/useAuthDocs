@@ -37,7 +37,7 @@ export default {
   fonts: {
     body:
       '-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
-    heading: 'inherit',
+    heading: 'Roboto, sans-serif',
     monospace: 'Menlo, monospace',
   },
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72],
@@ -340,6 +340,7 @@ export default {
     navlink: {
       display: 'inline-block',
       fontWeight: 'bold',
+      font: 'Asap',
       color: 'inherit',
       textDecoration: 'none',
       ':hover,:focus': {
