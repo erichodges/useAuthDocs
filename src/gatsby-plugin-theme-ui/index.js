@@ -36,11 +36,12 @@ export default {
   }, 
   fonts: {
     body:
-      '-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+      '-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif',
     logoFont: 'Asap, sans-serif',
     heading: 'Roboto, sans-serif',
     monospace: 'Menlo, monospace',
   },
+  // heading: 'Roboto, sans-serif',
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72],
   fontWeights: {
     body: 400,
@@ -54,9 +55,19 @@ export default {
   },
   sizes: {
     sidebar: 256,
-    container: 1024,
   },
   text: {
+    logo: {
+      display: 'block',
+      width: '100%',
+      px: 2,
+      py: 2,
+      color: 'inherit',
+      textDecoration: 'none',
+      fontSize: 1,
+      fontWeight: 'bold',
+      bg: 'transparent',
+    },
     heading: {
       fontFamily: 'heading',
       fontWeight: 'heading',
@@ -109,7 +120,7 @@ export default {
         bg: 'primary',
       },
     },
-    // Logo in Header       **************
+    // Left Nav Links       **************
     nav: {
       display: 'block',
       width: '100%',
@@ -229,10 +240,33 @@ export default {
     },
   },
   layout: {
+    intro: {
+      display: 'grid',
+      width: '100vw',
+      height: '93vh',
+      padding: 0,
+      margin: 0,
+      
+    },
     container: {
-      p: 3,
+      placeItems: 'center',
       // maxWidth: 1024,
     },
+    h2: {
+      margin: 0,
+      marginTop: '-15px',
+      marginBottom: 0,
+      padding: 0
+    },
+    code: {
+      fontFamily: 'monospace',
+      color: 'secondary',
+      bg: 'muted',
+      lineHeight: '12px'
+    },
+    button: {
+      marginTop: '15px'
+    }
   },
   styles: {
     root: {
