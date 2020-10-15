@@ -1,4 +1,6 @@
 /** @jsx jsx */
+import { Link } from "gatsby";
+import { FaArrowRight } from "react-icons/fa";
 import { IoIosLock } from "react-icons/io";
 import { Box, Button, Container, jsx } from 'theme-ui';
 
@@ -9,7 +11,14 @@ const Intro = (props) => {
     <Container sx={{variant: 'layout.intro'}}>
       <Box sx={{ variant: 'layout.container', marginTop: '-11rem'}}>
         <Box sx={{whiteSpace: 'nowrap'}}>
-          <IoIosLock sx={{ size: 50, fill: 'primary', display: 'inline-block', marginBottom: '-5px'}}/>
+          <IoIosLock sx={{
+            size: 49.2,
+            fill: 'primary',
+            display: 'inline-block',
+            marginBottom: '-5px',
+            marginLeft: '-8px'
+          }}
+          />
           <h1 sx={{
             variant: 'text.logo',
             display: 'inline-block',
@@ -35,9 +44,11 @@ const Intro = (props) => {
           npm i react-use-auth
         </span>
         <br />
-        <Button sx={{ variant: 'layout.button'}}>
-          Get Started
+        <Link to='/docs/getting-started'>
+        <Button sx={{ variant: 'layout.button', fontSize: '1.1rem', cursor: 'pointer'}}>
+          Get Started <FaArrowRight sx={{ marginBottom: '-2px'}}/>
         </Button>
+        </Link>
         
       </Box>
     </Container>

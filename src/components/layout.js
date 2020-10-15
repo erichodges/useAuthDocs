@@ -80,9 +80,11 @@ export default (props) => {
               </Link>
             </Flex>
             <Flex>
+              <NavLink href='https://github.com/Swizec/useAuth' sx={{mr: 2}}>GitHub</NavLink>
               <Button
                 sx={{
                   mr: 2,
+                  cursor: 'pointer'
                 }}
                 onClick={cycleMode}>
                 {getModeName(mode)}
