@@ -45,7 +45,11 @@ const Intro = (props) => {
         </span>
         <br />
         <Link to='/docs/getting-started'>
-        <Button sx={{ variant: 'layout.button', fontSize: '1.1rem', cursor: 'pointer'}}>
+        <Button sx={{
+          variant: 'layout.button',
+          fontSize: '1.1rem',
+          cursor: 'pointer',
+          }}>
           Get Started <FaArrowRight sx={{ marginBottom: '-2px'}}/>
         </Button>
         </Link>

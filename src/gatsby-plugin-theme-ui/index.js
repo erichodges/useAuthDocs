@@ -137,6 +137,12 @@ export default {
       borderRadius: 2,
       '&:hover': {
         bg: 'highlight',
+        color: 'primary'
+      },
+      '&:focus': {
+        outline: 'none',
+        bg: 'highlight',
+        color: 'primary'
       },
       '&.active': {
         color: 'primary',
@@ -253,6 +259,7 @@ export default {
       // maxWidth: 1024,
     },
     h2: {
+      fontFamily: 'Roboto, sans-serif',
       margin: 0,
       marginTop: '-15px',
       marginBottom: 0,
@@ -265,7 +272,15 @@ export default {
       lineHeight: '12px'
     },
     button: {
-      marginTop: '15px'
+      fontFamily: 'Roboto, sans-serif',
+      marginTop: '15px',
+      outline: 'none',
+      '&:hover': {
+        bg: 'secondary'
+      },
+      '&:focus': {
+        bg: 'secondary',
+      },
     }
   },
   styles: {
@@ -379,8 +394,14 @@ export default {
       font: 'body',
       color: 'inherit',
       textDecoration: 'none',
-      ':hover,:focus': {
+      outline: 'none',
+      '&:hover': {
         color: 'primary',
+        bg: 'highlight'
+      },
+      '&:focus': {
+        color: 'primary',
+        bg: 'highlight'
       },
     },
   },

@@ -84,7 +84,8 @@ export default (props) => {
               <Button
                 sx={{
                   mr: 2,
-                  cursor: 'pointer'
+                  cursor: 'pointer',
+                  variant: 'styles.navlink',
                 }}
                 onClick={cycleMode}>
                 {getModeName(mode)}
