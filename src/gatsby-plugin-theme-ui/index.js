@@ -4,8 +4,8 @@ export default {
   colors: {
     text: '#000000',
     background: '#f0f0f0',
-    primary: '#3333ee',
-    secondary: '#497FFF',
+    primary: '#0d47a1',
+    secondary: '#1565c0',
     muted: '#f6f6f6',
     highlight: '#D9E8F4',
     gray: '#777777',
@@ -16,7 +16,7 @@ export default {
         text: '#ccc',
         background: '#171923',
         primary: '#33ccff',
-        secondary: '#97E8FF',
+        secondary: '#5ed7ff',
         muted: '#191919',
         highlight: '#1E212F',
         gray: '#999999',
@@ -25,8 +25,8 @@ export default {
       deep: {
         text: '#ccc',
         background: '#212B30',
-        primary: '#4fc3f7',
-        secondary: '#97E8FF',
+        primary: '#33ccff',
+        secondary: '#5ed7ff',
         highlight: '#2A363D',
         accent: 'hsl(290, 100%, 80%)',
         muted: 'hsla(230, 20%, 0%, 20%)',
@@ -270,9 +270,10 @@ export default {
     },
     code: {
       fontFamily: 'monospace',
+      fontSize: [1, 2],
       color: 'secondary',
       bg: 'muted',
-      lineHeight: '12px'
+      lineHeight: '10px'
     },
     button: {
       fontFamily: 'Roboto, sans-serif',
