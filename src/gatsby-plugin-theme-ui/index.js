@@ -84,6 +84,9 @@ export default {
       textTransform: 'uppercase',
       letterSpacing: '0.2em',
     },
+    body: {
+      fontSize: [2]
+    }
   },
   buttons: {
     primary: {

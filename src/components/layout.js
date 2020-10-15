@@ -135,7 +135,8 @@ export default (props) => {
                 maxWidth: fullwidth ? 'none' : 700,
                 mx: 'auto',
                 px: fullwidth ? 0 : 3,
-                marginTop: '-.3rem'
+                marginTop: '-.3rem',
+                fontSize: [2, 3]
               }}>
               {props.children}
               {!fullwidth && <Pagination />}
