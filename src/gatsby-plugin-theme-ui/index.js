@@ -1,6 +1,7 @@
 import prism from '@theme-ui/prism/presets/theme-ui';
 
 export default {
+  useColorSchemeMediaQuery: true,
   colors: {
     text: '#000000',
     background: '#f0f0f0',
