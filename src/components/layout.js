@@ -75,7 +75,14 @@ export default (props) => {
                   if (navLink) navLink.focus()
                 }}
               />
-              <Link to="/" sx={{ variant: 'text.logo', fontSize: '2.2rem', fontWeight: 'bold', letterSpacing: '-3px',  fontFamily: 'Asap, sans-serif'}}>
+              <Link to="/"
+                sx={{ 
+                  variant: 'text.logo',
+                  fontSize: '2.2rem',
+                  fontWeight: 'bold',
+                  letterSpacing: '-3px',
+                  fontFamily: 'Asap, sans-serif'
+                }}>
                 useAuth
               </Link>
             </Flex>
